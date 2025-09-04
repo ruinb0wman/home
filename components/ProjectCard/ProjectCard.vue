@@ -1,10 +1,3 @@
-<template>
-  <div class="project-card" @click="nav">
-    <img :src="cover" alt="" class="cover">
-    <div class="name">{{ name }}</div>
-  </div>
-</template>
-
 <script setup lang="ts">
 import { useRouter } from 'vitepress';
 
@@ -15,6 +8,13 @@ function nav() {
   router.go(props.link);
 }
 </script>
+
+<template>
+  <div class="project-card" @click="nav">
+    <img :src="props.cover" alt="" class="cover">
+    <div class="name">{{ props.name }}</div>
+  </div>
+</template>
 
 <style scoped>
 .project-card {

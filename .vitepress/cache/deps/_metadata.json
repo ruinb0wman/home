@@ -1,40 +1,40 @@
 {
-  "hash": "37e7e64c",
-  "configHash": "64a1bb92",
-  "lockfileHash": "e3b0c442",
-  "browserHash": "62fdfc12",
+  "hash": "c289bc45",
+  "configHash": "09f7d7f4",
+  "lockfileHash": "582fa64c",
+  "browserHash": "07827408",
   "optimized": {
     "vue": {
-      "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../node_modules/.pnpm/vue@3.5.18_typescript@5.8.3/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "dca7357a",
+      "fileHash": "ef07b885",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
-      "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
+      "src": "../../../node_modules/.pnpm/@vue+devtools-api@7.7.7/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "dcb259d6",
+      "fileHash": "eae62d86",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
-      "src": "../../../node_modules/@vueuse/core/index.mjs",
+      "src": "../../../node_modules/.pnpm/@vueuse+core@12.8.2_typescript@5.8.3/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "28c73365",
+      "fileHash": "87a9f5cb",
       "needsInterop": false
     },
     "@theme/index": {
-      "src": "../../../node_modules/vitepress/dist/client/theme-default/index.js",
+      "src": "../../../node_modules/.pnpm/vitepress@1.6.3_@algolia+client-search@5.34.1_@types+node@24.1.0_postcss@8.5.6_search-insights@2.17.3_typescript@5.8.3/node_modules/vitepress/dist/client/theme-default/index.js",
       "file": "@theme_index.js",
-      "fileHash": "34e38bc1",
+      "fileHash": "638f482b",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-T266C5IK": {
-      "file": "chunk-T266C5IK.js"
+    "chunk-WH66F7EG": {
+      "file": "chunk-WH66F7EG.js"
     },
-    "chunk-XJPKZAQV": {
-      "file": "chunk-XJPKZAQV.js"
+    "chunk-4XCGBR3I": {
+      "file": "chunk-4XCGBR3I.js"
     }
   }
 }

@@ -19,7 +19,18 @@ export default [
   },
   {
     text: 'Notes', items: [
-      { text: 'FrontEnd', link: '' },
+      {
+        text: 'FrontEnd',
+        collapsed: true,
+        items: [
+          {
+            text: "React", collapsed: true, items: [
+              { text: "state", link: '/notes/front-end/react/state.md' },
+              { text: "style", link: '/notes/front-end/react/style.md' },
+            ]
+          }
+        ]
+      },
       { text: 'Client', link: '' },
       { text: 'BackEnd', link: '' },
       { text: 'Maintain', link: '' },
