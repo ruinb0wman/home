@@ -32,7 +32,17 @@ export default [
         ]
       },
       { text: 'Client', link: '' },
-      { text: 'BackEnd', link: '' },
+      {
+        text: 'BackEnd', link: '', collapsed: true, items: [
+          {
+            text: 'Prisma',
+            collapsed: true,
+            items: [
+              { text: 'what is', link: '/notes/back-end/prisma/01-whatis.md' }
+            ]
+          }
+        ]
+      },
       { text: 'Maintain', link: '' },
       {
         text: 'Lang',
@@ -48,21 +58,21 @@ export default [
           {
             text: 'js/ts',
             collapsed: true,
-            items: [{
-              text: '01', link: '/notes/lang/js/01.md'
-            }]
+            items: [
+              { text: '01', link: '/notes/lang/js/01.md' }
+            ]
+          },
+          {
+            text: 'python',
+            collapsed: true,
+            items: [
+              { text: '01', link: '/notes/lang/python/01.md' }
+            ]
           }
         ]
       },
     ]
   },
-  {
-    text: 'Project', link: '/project', items: [
-      { text: '临翔慧民居', link: '/project/lxhmj.md' },
-    ]
-  }, {
-    text: 'Read', collapsed: true, items: [
-      { text: '小王子', link: '' },
-    ]
-  },
+  { text: 'Project', link: '/project' },
+  { text: 'Read', collapsed: true },
 ] as DefaultTheme.Sidebar

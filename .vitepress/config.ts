@@ -13,7 +13,7 @@ export default defineConfig({
     // display is page side bar
     sidebar,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/ruinb0wman' }
     ]
   },
   vite
