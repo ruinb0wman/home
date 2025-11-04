@@ -8,6 +8,7 @@ export default defineConfig({
   title: "Ruinb0w",
   appearance: 'force-dark',
   themeConfig: {
+    outline: [2, 3],
     // display in header
     nav,
     // display is page side bar
